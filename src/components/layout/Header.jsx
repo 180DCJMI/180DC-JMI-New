@@ -54,7 +54,7 @@ export const Header = () => {
                                 )
                             })}
                         </ul>
-                        <button className='p-4 py-2 bg-transparent font-bold bg-main hover:bg-dark text-white transition-all
+                        <button className='p-4 py-2 font-bold bg-main hover:bg-dark text-white transition-all
                          duration-300 rounded-full border border-dark hover:border-gray-700'>Work with us</button>
                     </div>
                 </div>
