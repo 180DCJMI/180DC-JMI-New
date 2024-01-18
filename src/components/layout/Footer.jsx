@@ -35,7 +35,7 @@ export const Footer = () => {
           <div className='flex flex-col space-y-0.5'>
             <Link to="/" className='text-white font-medium hover:text-gray-300 transition-all duration-300'>About Us</Link>
             <Link to="/" className='text-white font-medium hover:text-gray-300 transition-all duration-300'>Our Team</Link>
-            <Link to="/" className='text-white font-medium hover:text-gray-300 transition-all duration-300'>Resources</Link>
+            <Link to="/resources" className='text-white font-medium hover:text-gray-300 transition-all duration-300'>Resources</Link>
             <Link to="/" className='text-white font-medium hover:text-gray-300 transition-all duration-300'>Gallery</Link>
             <Link to="/" className='text-white font-medium hover:text-gray-300 transition-all duration-300'>Contact Us</Link>
           </div>

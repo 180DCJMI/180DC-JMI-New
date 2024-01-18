@@ -13,8 +13,7 @@ import { Footer } from './components/layout/Footer'
 // pages
 import { Home } from './pages/Home';
 import { About } from './pages/About';
-import { Team } from './pages/Team';
-
+import { Resources } from './pages/Resources';
 function App() {
 
   useEffect(() => {
@@ -34,7 +33,7 @@ function App() {
           <Route path="/about-us" element={<About />} />
           <Route path="/our-team" element={<Team />} />
           <Route path="/gallery" element={<Home />} />
-          <Route path="/resources" element={<Home />} />
+          <Route path="/resources" element={<Resources />} />
           <Route path="/contact-us" element={<Home />} />
         </Routes>
         <Footer />
